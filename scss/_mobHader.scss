@@ -1,0 +1,27 @@
+.MobHeader{
+    z-index: 4;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: $white;
+    box-shadow: 1px 1.332px 4px 2px #7c7c7c4d;
+.mobNav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 10px;
+    .logo{
+        img{
+            width: 130px;
+        }
+    }
+    .mobNAv_btn{
+         a{
+             i{
+                 font-size: 28px;
+                 color: $black;
+             }
+         }
+    }
+}
+}

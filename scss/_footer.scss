@@ -1,0 +1,65 @@
+.footer{
+    padding: 25px 0 40px 0;
+    background-color: hsl(218.5, 48.1%, 15.9%);
+    position: relative;
+    z-index: 1;
+    &::before{
+        position: absolute;
+        content: '';
+        top: 0;
+        left: 0;
+        background-image: url(../images/footbg.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        z-index: -1;
+    }
+    .footer_wrapper{
+        h3{
+            font-size: 24px;
+            font-weight: 600;
+            color: $white;
+           line-height: 36px;
+           padding: 20px 0;
+           span{
+               color: $primaryColor;
+           }
+        }
+        p{
+            font-size: 16px;
+            font-weight: 400;
+            color: rgb(220, 216, 216);
+            padding-right: 30px;
+        }
+        h4{
+            font-size: 15px;
+            font-weight: 400;
+            color: rgb(220, 216, 216);
+            line-height: 26px;
+        }
+        .Address{
+           h6{
+            font-size: 18px;
+            font-weight: 400;
+            color: $white;
+            line-height: 26px;  
+           }
+           p{
+            font-size: 16px;
+            font-weight: 400;
+            color: rgb(220, 216, 216);
+            line-height: 26px;  
+           }
+        }
+    }
+}
+.copy_right{
+    background-color: hsl(218.5, 48.1%, 15.9%);
+    padding: 20px 0 10px 0;
+    border-top: 1px solid rgb(133, 131, 131);
+    h4{
+        font-size: 16px;
+        font-weight: 400;
+        color: $white;
+    }
+}
